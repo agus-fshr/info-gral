@@ -1,15 +1,19 @@
 # Por que programamos?
 La programacion es una herramienta que nos permite resolver problemas variados. Estos pueden variar desde calcular cosas que antes no podiamos, simular diversas situaciones, automatizar tareas, estudiar enormes series de datos, entre muchas otras cosas. El denominador comun que tienen todos los progamas es que tienen el proposito de hacernos mas facil la vida. Un programa que vale la pena es uno que nos ahorra mucho mas tiempo del que nos tarda programarlo (al menos en un mundo ideal).
+
 Para esto, ademas de aprender lenguajes de programacion, tenemos que aprender a resolver problemas y a pensar de una manera distinta. La computadora hace exactamente lo que le decimos que haga, nada mas y nada menos. Es por esto que es super importante que aprendamos a pensar los problemas de una manera clara, concisa y exacta.
 
 # Desarrollo de programas
 Para poder darle instrucciones claras a la computadora vamos a pensar los problemas de la siguiente manera. Aca, de mas esta decir, que todos tenemos nuestra propia forma de pensar y el metodo que le sirve a uno no tiene por que servirle a otro. Yo tengo la intencion de darles una manera simple de hacerlo y que a partir de eso, cada uno pueda, con la practica y la experiencia, desarrollar su propia forma de pensar.
+
 Algo util es pensarlo en terminos de entrada y salida, como si fuera una caja negra. No sabemos como tiene que ser el programa que queremos, pero sabemos que queremos que reciba ciertos datos (entrada) y nos de cierta respuesta (salida). Esto deberia orientar bastante la pregunta de que deberia hacer el programa con los datos que e damos, para que nos de la respuesta que queremos.
+
 Podemos comenzar pensando los pasos a seguir para obtener esa respuesta en un lenguaje coloquial y luego ir formalizandolo hasta llegar a una solucion generalizada en algun lenguaje de programacion.
 
 ## Que es un algoritmo
 Honestamente esto es medio chamuyo, es la misma definicion que te van a dar en casi cualquier curso relacionado con programas y despues nunca la vas a usar, pero te la doy para no romper con la tradicion.
 > _Un algoritmo se define como un metodo que se realiza paso a paso para solucionar un problema. Todo algoritmo termina en un numero finito de pasos._
+
 Lo mas importante de un algoritmo es que debe ser...
 - ...**preciso**, es decir, bien definido en cuanto a lo que se debe hacer, sin ambiguedades
 - ...**definido**. Esto quiere decir que dada la misma, entrada, deberia producir siempre la misma salida (Esta no es enteramente cierta, pero por ahora digamos que es asi)
@@ -53,6 +57,9 @@ $ sudo dnf install python3
 
 ## Editor de Texto
 Ademas de Python, vamos a necesitar un lugar donde escribir programas en Python. Para esto se puede usar literalmente cualquier programa que permita editar texto, hasta Word... aunque, obviamente, no es recomendable. En general, una buena recomendacion es VSCode, pero cada uno tiene su propio editor de texto favorito.
+
 Para instalarlo valen practicamente todos los mismos pasos que para instalar Python asi que no me voy a gastar en escribir mas y, en el peor de los casos, es algo super googleable como casi todas las cosas que esten en este repo.
+
 La ventaja de usar un editor de texto como Visual Studio Code (VSCode) es que resalta con colores ciertas palabras clave de un programa. Esto por mas tonto que parezca es una ventaja enorme, porque hace a los programas mil veces mas legibles. Tambien tiene otras ventajas como integraciones para correr el codigo en el mismo editor y poder analizar el estado de variables y otras cosas que podemos aprender mas adelante.
+
 Por ahora, si ya instalaste VSCode, andate a la solapa de extensione (los cuadraditos que aparecen sobre la izquerda de la pantalla) y en el buscador pone "Python" e instalate la primera extension que tiene el logo de Python. Ya estas en condiciones de programar en Python.
