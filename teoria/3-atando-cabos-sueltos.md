@@ -9,6 +9,10 @@ Cuando asignamos valor a variables, quizas se te ocurrio en lugar de hacer `a=2`
 
 ## Combinando Expresiones (I)
 
+A medida que uses mas las expresiones logicas y condiciones de `if`s, te vas a ir acostumbrando a la forma de pensar y vas a darte cuenta de que te falta algo. Hay algo que no mencione hasta ahora y que es super util. Podemos combinar expresiones logicas usando `and`, `or` y `not` (el `not` tambien se puede reemplzar por `!`).
+
+Supongamos que queremos que la variable `x` pertenezca al intervalo (2,5) o que no perteneza al intervalo (0,1]. Podriamos expresar esto como `(2<x and x<5) or not (0<x and x<=1)`. Por las didas, los parentesis estan para que el `or` agarre ambos `and`s y no solamente las expresiones inmediatamente mas cercanas.
+
 ## Lazy (III)
 Todas las expresiones en Python se evaluan de manera *lazy*. Esto quiere decir que dejan de evaluarse en el momento que su valor queda definido. Es super entendible que aun no te haya quedado claro asi que te voy a dar un ejemplo con el que seguro entendes.
 

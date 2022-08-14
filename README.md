@@ -2,7 +2,7 @@
 ---
 
 ## Aclaraciones
-### 1. `__name__ == __main__`
+### 1. `__name__ == "__main__"`
 Muchos archivos `.py` de resoluciones estan estructurados de a siguiente manera:
 ```Python
 def main():
