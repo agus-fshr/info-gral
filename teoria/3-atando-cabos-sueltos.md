@@ -5,13 +5,23 @@ Para ahorrarte tiempo, voy a tratar de describirlas con algun simbolo que ordene
 # Asignacion (I)
 Cuando asignamos valor a variables, quizas se te ocurrio en lugar de hacer `a=2`, `2=a`. Primero, no. Segundo, esto no funciona porque en programacion hacemos una distincion entre valores que van a izquierda de un igual (lvalues) y valores que van a derecha de un igual (rvalues). Una expresion definida como lo es un numero entero, siempre va a ir a la derecha de un `=`. De la misma manera, el nombre de una variable o de algo que recibe un valor, va a ir siempre a la izquiera. Si te sirve, lo podes pensar como si en lugar de `a=2` fuera `a<-2`.
 
+# Atajos (I)
+
+Esta es re importante porque se usa un monton y si nunca lo viste tal vez te asustas. Muchas veces vamos a querer actualizar el valor de una variable sumandole algo o realizando alguna modificacion a su valor actual. Nos va a quedar una expresion como `x = x + 1`. Los desarrolladores de lenguajes de programacion saben que esto es algo muy comun y que es un poco aburrido escribir tanto, asi que nos acercaron una manera mas corta de expresar lo mismo: `x += 1`. Esto se lee como "incremento x en 1". Lo mismo se puede hacer con otros operadores, por ejemplo `x *= 2` significa que multiplico el valor de x por dos y luego lo guardo en x.
+
 # Evaluacion de Expresiones
 
 ## Combinando Expresiones (I)
 
+<<<<<<< HEAD
 A medida que uses mas las expresiones logicas y condiciones de `if`s, te vas a ir acostumbrando a la forma de pensar y vas a darte cuenta de que te falta algo. Hay algo que no mencione hasta ahora y que es super util. Podemos combinar expresiones logicas usando `and`, `or` y `not` (el `not` tambien se puede reemplzar por `!`).
 
 Supongamos que queremos que la variable `x` pertenezca al intervalo (2,5) o que no perteneza al intervalo (0,1]. Podriamos expresar esto como `(2<x and x<5) or not (0<x and x<=1)`. Por las didas, los parentesis estan para que el `or` agarre ambos `and`s y no solamente las expresiones inmediatamente mas cercanas.
+=======
+Logicamente, no podemos expresar todas las condiciones como un solo mayor o igual o un solo `==`. Python nos permite aprovechar todas las propiedades de la logica mediante los operadores `and`, `or`, `not` y `!` (los ultimos dos hacen lo mismo).
+
+Su uso es muy natural y lo mas parecido a la logica que solemos usar en matematica. Para unir dos expresiones con un "y" logico; algo como "(a) y (b)", hariamos `(a) and (b)`. Las demas se usan de la misma manera.
+>>>>>>> 040e2e9 (18/08/2022)
 
 ## Lazy (III)
 Todas las expresiones en Python se evaluan de manera *lazy*. Esto quiere decir que dejan de evaluarse en el momento que su valor queda definido. Es super entendible que aun no te haya quedado claro asi que te voy a dar un ejemplo con el que seguro entendes.
@@ -29,7 +39,7 @@ if !(error_tipo_1 == 0 and error_tipo_2 == 0 and error_tipo_3 == 0):
     detener()
 ```
 
-Manera 2
+**Manera 2**
 ```Python
 if !(error_tipo_1 + error_tipo_2 + error_tipo_3):
     detener()
